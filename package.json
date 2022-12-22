@@ -1,0 +1,42 @@
+{
+  "name": "front-template-cli",
+  "version": "1.0.0",
+  "description": "",
+  "bin": {
+    "ftc":"./dist/index.es.js"
+  },
+  "main": "./dist/index.es.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rimraf -rf ./dist && rollup --config rollup.config.ts --configPlugin typescript"
+  },
+  "keywords": ["project template","vue项目模板","项目模板","vite项目模板"],
+  "author": "pan",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.20.5",
+    "@rollup/plugin-babel": "^6.0.3",
+    "@rollup/plugin-commonjs": "^23.0.3",
+    "@rollup/plugin-node-resolve": "^15.0.1",
+    "@rollup/plugin-typescript": "^10.0.1",
+    "@types/inquirer": "^9.0.3",
+    "@types/node": "^18.11.10",
+    "prettier": "^2.8.0",
+    "rimraf": "^3.0.2",
+    "rollup": "^3.5.1",
+    "rollup-plugin-babel": "^4.4.0",
+    "rollup-plugin-uglify": "^6.0.4",
+    "tslib": "^2.4.1",
+    "typescript": "^4.9.3"
+  },
+  "dependencies": {
+    "download-git-repo": "^3.0.2",
+    "inquirer": "^9.1.4",
+    "ora": "^6.1.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/huangyuanyin/front-template-cli"
+  }
+}
