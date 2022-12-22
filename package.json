@@ -1,6 +1,6 @@
 {
   "name": "front-template-cli",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "",
   "bin": {
     "ftc":"./dist/index.es.js"

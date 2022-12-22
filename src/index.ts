@@ -28,7 +28,7 @@ const repositoryList: Record<string, TemplateInfo> = {
   },
   "vue3-element-plus": {
     downloadUrl:
-      "https://github.com/huangyuanyin/front-project-template/raw/7527b179d51de3a46c6573516f4306830a3568ef/zip/vue3-element-plus.zip",
+      "https://gitcode.net/weixin_42365757/front-project-template/-/raw/master/zip/vue3-element-plus.zip?inline=false",
     desc: "vue3项目基础模板上整合进element-plus",
   },
   "vue3-vant": {
@@ -43,7 +43,7 @@ const repositoryList: Record<string, TemplateInfo> = {
   },
   "vue3-ui-lib": {
     downloadUrl:
-      "https://github.com/huangyuanyin/front-project-template/raw/7527b179d51de3a46c6573516f4306830a3568ef/zip/vue3-ui-lib.zip",
+      "https://gitcode.net/weixin_42365757/front-project-template/-/raw/master/zip/vue3-ui-lib.zip?inline=false",
     desc: "用于编写 vue3 ui 组件",
   },
 };
